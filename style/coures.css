@@ -1081,6 +1081,9 @@ font-weight: 400;
         align-items: center;
         justify-content: space-around;
     }
+    .instructors-content-c h2{
+        font-size: 1.5em;
+    }
     .c2{
         height: 12.5em;
     }
