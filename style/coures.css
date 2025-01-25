@@ -985,6 +985,7 @@ font-weight: 400;
         padding-inline: 4em;
     }
     .mainside{
+        width: 90%;
         margin-top: 1em;
         gap: 2em;
         align-items: center;
