@@ -1,0 +1,221 @@
+.aboutus-intro .container{
+    display: flex; 
+    gap: 3.5em;
+}
+.aboutus-title{
+    display: flex; 
+    flex-direction: column;
+    gap: 0.5em;
+    width: 574px;
+}
+.aboutus-title h1{
+    font-size: 2.9em;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+.aboutus-title span{
+    font-weight: 700;
+    color: var(--orange-color);
+}
+.aboutus-title p{
+    font-weight: 400;
+    font-size: 1.1em;
+    width: 450px;
+}
+.aboutus-title button{
+    background-color: var(--orange-color);
+    width: 10.8em;
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: 700;
+    color: var(--white-color);
+    border: none;
+}
+/***********cards-colored***********/
+.cards-colored .container{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5em;
+}
+.card{
+    width: 33em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    gap:0.5em;
+    background-color: var(--yellow-05);
+    justify-content: center;
+    padding: 1em 3em;
+    color: var(--white-color);
+}
+.card svg{
+    width: 3.5em;
+}
+.card h1{
+    font-weight: 700;
+    font-size: 2.9em;
+}
+
+.card h3{
+    font-weight: 700;
+    font-size: 1.6em;
+    width: 15em;
+}
+
+.card p{
+    font-weight: 400;
+    font-size: 1.1em;
+    width: 20em;
+}
+.card2{
+    width: 33em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    gap:0.5em;
+    background-color: var(--blue-color);
+    justify-content: center;
+    padding: 1em 3em;
+    color: var(--white-color);
+}
+.card2 svg{
+    width: 3.5em;
+}
+.card2 h1{
+    font-weight: 700;
+    font-size: 2.9em;
+}
+
+.card2 h3{
+    font-weight: 700;
+    font-size: 1.6em;
+    width: 15em;
+}
+
+.card2 p{
+    font-weight: 400;
+    font-size: 1.1em;
+    width: 21.5em;
+}
+/*******video****/
+.video .container {
+    position: relative;
+}
+
+.video video {
+    padding-top: 2em;
+    width: 70em;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5em;
+    height: 10em;
+    cursor: pointer;
+    z-index: 2;
+    animation: none;
+}
+
+.play-icon:active {
+    animation: hideAndShowIcon 8s; /* Trigger animation */
+}
+/****content**/
+.contentabout{
+    padding-top: 2em;
+}
+.contentabout .container{
+    display: flex; 
+    gap: 10em;
+}
+.contentabout .container h2{
+    font-weight: 700;
+    font-size: 5em;
+}
+.contentabout .container span:nth-of-type(1){
+    color: var(--primary-color);
+}
+.contentabout .container span:nth-of-type(2){
+    color: var(--yellow-05);
+}
+.contentabout .container span:nth-of-type(3){
+    color: var(--orange-color);
+}
+.contentabout .container p{
+    font-size: 1.1em;
+    font-weight: 400;
+    width: 24em;
+}
+@keyframes hideAndShowIcon {
+    0% {
+        opacity: 1; /* Fully visible at the start */
+    }
+    1% {
+        opacity: 0; /* Instantly invisible */
+    }
+    90% {
+        opacity: 0; /* Stay invisible for most of the duration */
+    }
+    100% {
+        opacity: 1; /* Reappear after 8 seconds */
+    }
+}
+
+/***************/
+@media (min-width: 600px) and (max-width: 1201px){
+    .aboutus-image img{
+        width: 25em;
+    }
+    
+    .video .container video{
+        width: 98%;
+        padding-right: 2em;
+    }
+    .contentabout .container{
+        justify-content: center;
+    }
+    .contentabout .container h2{
+        font-weight: 700;
+        font-size: 4em;
+    }
+}
+@media (max-width: 600px){
+    .aboutus-intro .container{
+        flex-direction: column;
+    }
+    .aboutus-title{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .aboutus-title h1{
+        width: 10em;
+    }
+    .aboutus-title p{
+        width: 26em;
+    }
+    .aboutus-image img{
+        width: 28em;
+    }
+    .cards-colored .container{
+        flex-direction: column;
+    }
+    .card,.card2{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .video .container video{
+        width: 95%;
+        padding-right: 2em;
+    }
+    .contentabout .container{
+        flex-direction: column;
+        gap: 2em;
+        align-items: center;
+    }
+    
+.contentabout .container p{
+    width: 90%;
+}
+}

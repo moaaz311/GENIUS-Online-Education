@@ -1,0 +1,140 @@
+.title-ca h1{
+    padding-top: 1.5em;
+    font-size: 3.9em;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.title-ca span{
+    font-weight: 700;
+    color: var(--orange-color);
+}
+.big-image{
+    display: flex;
+}
+.big-image img{
+    width: 34em;
+    height: 30em;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: var(--secondary-color);
+    width: 34em;
+    height: 30em;
+    padding: 4em 6em;
+}
+.cont h1{
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2.5em;
+}
+.radio-point{
+    display: flex;
+    gap: 0.5em;
+    color: #686868;
+    font-weight: 400;
+}
+/* .radio-point input{
+    width: 1.6em;
+} */
+
+.radio-point input{
+    appearance: none;
+    -webkit-appearance: none; 
+    width: 1.5em;
+    height: 1.5em;
+    border: 2px solid #ccc;
+    border-radius: 50%; 
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+ .radio-point input:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0.8em; 
+    height: 0.8em;
+    background-color:var(--primary-color);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.radio-point input[type="radio"]:checked ~ p {
+    color: var(--primary-color);
+}
+
+.pri{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.pri p{
+    color: #818181;
+    font-size: 1.6em;
+    font-weight: 400;
+}
+.pri span{
+    font-size: 1.6em;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.checkout-button .container{
+    padding-top: 2em;
+    display: flex;
+}
+.checkout-button .container a{
+    background-color: var(--orange-color);
+    border-radius: 2em;
+    width: 75em;
+    height: 3.6em;
+    text-align: center;
+    padding-top: 0.5em;
+    align-self: center;
+}
+.checkout-button .container a p{
+    font-size: 1.5em;
+    color: var(--white-color);
+    font-weight: 700;
+} 
+@media (min-width: 600px) and (max-width: 1201px){
+    .intro .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .big-image img{
+        width: 50%;
+    }
+    .checkout-button .container{
+        justify-content: center;
+    }
+}
+@media (max-width: 600px){
+    .title-ca{
+        text-align: center;
+        h1{
+            padding-top: 0.5em;
+        }
+    }
+    .big-image{
+        flex-direction: column;
+        align-items: center;
+    }
+    .big-image img{
+        width: 90%;
+    }
+    .cont{
+        width: 90%;
+    }
+    .checkout-button .container{
+        justify-content: center;
+    }
+    .checkout-button .container a{
+        width: 90%;
+    }
+}

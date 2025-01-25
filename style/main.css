@@ -1,0 +1,49 @@
+@import "./reset.css";
+@import "./variables.css";
+@import "./responsive.css";
+@import "./navbar.css";
+@import "./heroBanner.css";
+@import "./sectionHeader.css";
+@import "./home.css";
+@import "./footer.css";
+@import "./coures.css";
+@import "./teachers.css";
+@import "./aboutus.css";
+@import "./contact-us.css";
+@import "./cart.css";
+@import "./checkout.css"
+
+
+
+
+
+
+
+
+
+
+
+
+/* .checkout .container{
+    padding-top: 2em;
+    display: flex;
+}
+.checkout .container a{
+    background-color: var(--orange-color);
+    border-radius: 2em;
+    width: 40em;
+    height: 3.6em;
+    text-align: center;
+    padding-top: 0.5em;
+    align-self: center;
+}
+.checkout .container a p{
+    font-size: 1.5em;
+    color: var(--white-color);
+    font-weight: 700;
+} */
+/* <section class="checkout">
+<div class="container">
+<a href=""><p>تاكيد الدفع</p></a>
+</div>
+</section> */

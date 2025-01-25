@@ -1,0 +1,128 @@
+.title-contact h1{
+    padding-top: 1em;
+    font-size: 5em;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+.title-contact span{
+    font-weight: 700;
+    color: var(--orange-color);
+}
+.info .container{
+    display: flex;
+    gap: 12em;
+}
+#Fname{
+    width: 22em;
+    height: 3.5em;
+    margin-bottom: 3em;
+}
+#Lname{
+    width: 22em;
+    height: 3.5em;
+    margin-bottom: 3em;
+    margin-right: 0.5em;
+}
+#Email{
+    width: 44em;
+    height: 3.5em;
+    margin-bottom: 4em;
+}
+#Fnum{
+    width: 44em;
+    height: 3.5em;
+    margin-bottom: 4em;
+}
+#massage{
+    width: 44em;
+    height: 12.5em;
+    margin-bottom: 4em;
+}
+.spec{
+    display: none;
+}
+button{
+    background-color: var(--orange-color);
+    width: 24.5em;
+    height: 2em;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    border: none;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.contact-info h1{
+    font-weight: 700;
+    color:#818181;
+    font-size: 2.5em;
+}
+.icon-info{
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+.icons{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+.map{
+    width: 350px; 
+    height: 342px;
+}
+/***********/
+@media (min-width: 600px) and (max-width: 1201px){
+    .info .container{
+        gap: 4em;
+    }
+    button{
+        width: 33em;
+    }
+    .map{
+        width: 300px; 
+        height: 322px;
+    }
+}
+@media (max-width: 600px){
+    .info .container{
+        flex-direction: column;
+        gap: 2em;
+    }
+    #Fname{
+        width: 90%;
+        margin: 1em auto;
+    }
+    
+    #Lname{
+        width: 90%;
+        
+        margin: 1em auto;
+    }
+    
+    #Email{
+        width: 90%;
+        margin: 1em auto;
+    }
+    
+    #Fnum{
+        width: 90%;
+        margin: 1em auto;
+    }
+    
+    #massage{
+        width: 90%;
+        margin: 1em auto;
+    }
+    button{
+        width: 90%;
+        margin: 1em auto;
+    }
+    .contact-info{
+        width: 90%;
+    }
+}
