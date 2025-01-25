@@ -967,6 +967,8 @@ font-weight: 400;
         align-items: center;
         gap: 0em;
         padding-inline: 0;
+        width: 90%;
+        margin: 0 auto;
     }
     .sidebar{
         width: 90%;
