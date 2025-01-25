@@ -41,7 +41,7 @@
 .spec{
     display: none;
 }
-button{
+.B1{
     background-color: var(--orange-color);
     width: 24.5em;
     height: 2em;

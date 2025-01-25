@@ -239,14 +239,14 @@ font-weight: 400;
         font-weight: 700;
     }
 }
-.buttons{
+.buttonss{
     display: flex;
     flex-direction: column;
     gap: 0.7em;
     align-items: center;
     justify-content: center;
 }
-.buttons .btn1 button{
+.buttonss .btn1 button{
     padding: 1em;
     width: 10em;
     border-radius:4.1em;
@@ -256,7 +256,7 @@ font-weight: 400;
     font-weight: 700;
     font-size: 1.5em;
 }
-.buttons .btn2 button{
+.buttonss .btn2 button{
     padding: 1em;
     width: 10em;
     border-radius:4.1em;
