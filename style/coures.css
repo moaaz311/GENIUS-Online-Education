@@ -1053,27 +1053,25 @@ font-weight: 400;
         font-size:0.5em;
     }
     .Learning-benefits{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     }
     .benefits-cards{
-        flex-direction: row;
+        flex-direction: column;
     }
     .benefit-card:nth-of-type(1){
-        width: 15em;
+        width:90%;
     }
     .benefit-card:nth-of-type(2){
-        width: 15em;
+        width: 90%;
     }
     .benefit-card:nth-of-type(3){
-        width: 15em;
+        width: 90%;
     }
     .benefit-card:nth-of-type(4){
-        width: 15em;
+        width: 90%;
     }
     .teachers{
-        width: 80%;
-        margin: 0 auto;
         margin-top: 1.5em;
     }
     .instructors-container-c{
@@ -1095,7 +1093,7 @@ font-weight: 400;
         display: none;
     }
     .instructor-card-c {
-        width: 40%;
+        width: 48%;
         padding-top:1em;
     }
     .customars-cards{
