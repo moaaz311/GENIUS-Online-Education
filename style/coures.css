@@ -1037,8 +1037,14 @@ font-weight: 400;
     .title-avdantage{
         padding: 0.4em;
     }
+    .advantages .alladv{
+        padding-inline: 0.5em;
+    }
     .advantage-Customize{
         gap: 0.4em;
+    }
+    .advantage-Customize img{
+        height: 100%;
     }
     .advantage-Customize p {
         font-size:0.6em;
