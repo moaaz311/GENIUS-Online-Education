@@ -284,11 +284,16 @@ font-weight: 400;
     color:#9A9A9A;
 }
 /***mainside start**/
+.mainside{
+    display: flex;
+    flex-direction: column;
+}
 .mainside .image {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
 }
 
 .mainside .image img {
@@ -979,8 +984,13 @@ font-weight: 400;
     .rate , .same,.content-time{
         padding-inline: 4em;
     }
-    .mainside .image{
+    .mainside{
+        margin-top: 1em;
+        gap: 2em;
         align-items: center;
+    }
+    .mainside .image{
+        width: 31em;
     }
     .mainside .image img{
          width: 30em;

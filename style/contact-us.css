@@ -80,11 +80,11 @@
     .info .container{
         gap: 4em;
     }
-    button{
+    .B1{
         width: 33em;
     }
     .map{
-        width: 300px; 
+        width: 250px; 
         height: 322px;
     }
 }
@@ -92,6 +92,10 @@
     .info .container{
         flex-direction: column;
         gap: 2em;
+    }
+    form{
+        width: 90%;
+        margin: 0 auto;
     }
     #Fname{
         width: 90%;
@@ -118,11 +122,17 @@
         width: 90%;
         margin: 1em auto;
     }
-    button{
-        width: 90%;
-        margin: 1em auto;
+    .B1{
+        width: 85%;
+        margin: 0em auto;
     }
     .contact-info{
-        width: 90%;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+    }
+    .map{
+        width: 95%;
+        margin: 0 auto;
     }
 }
