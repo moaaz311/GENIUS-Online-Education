@@ -972,6 +972,7 @@ font-weight: 400;
     }
     .sidebar{
         width: 90%;
+        padding-bottom: 2em;
     }
     .sidebar .side-image img{
         width: 28em;
@@ -993,41 +994,41 @@ font-weight: 400;
         align-items: center;
     }
     .mainside .image{
-        width: 31em;
+        width: 28em;
     }
     .mainside .image img{
-         width: 30em;
+         width: 25em;
         height: 19em;
         padding-top: 1em;
+        margin: 0 auto;
     }
     .mainside .image span{
         display: none;
     }
     .title-course{
-        width: 95%;
+        width: 80%;
         align-items: center;
         justify-content: center;
 
+    }
+    .title-course h3{
+        font-size:2.5em ;
     }
     .title-course p{
         font-size: 1em;
         width: 25em;
     }
     .aboutcourse{
-        width:80%;
-        margin: 0 auto;
-        margin-top: 2em;
+        /* width:80%; */
     }
     .contents-cur{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
         margin-top: 2em;
         padding-bottom: 2em;
     }
     .advantages{
-        width: 80%;
-        margin: 0 auto;
-        margin-top: 2em;
+        width: 100%;
     }
     .advantages .star{
         width: 2em;
@@ -1035,6 +1036,9 @@ font-weight: 400;
     }
     .title-avdantage{
         padding: 0.4em;
+    }
+    .advantage-Customize{
+        gap: 0.4em;
     }
     .advantage-Customize p {
         font-size:0.6em;
