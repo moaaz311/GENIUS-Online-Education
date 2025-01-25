@@ -130,6 +130,7 @@
     }
     .cont{
         width: 90%;
+        padding: 4em 4em;
     }
     .checkout-button .container{
         justify-content: center;
